@@ -1,0 +1,173 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Georgia', serif;			/* Syntax:  font-family: 'FONT_NAME', FONT_FAMILY;*/
+}
+
+body{
+	background: #FFFFFF;
+}
+
+
+/*top navigation bar*/
+.topnav{
+	background: #287CE0;
+	overflow: hidden;
+	margin-left: 210px;
+	margin-right: 10px;
+}
+
+.topnav a{
+	float: left;
+	text-align: center;
+	padding: 14px 16px;
+	font-size: 15px;
+	text-decoration: none;
+	color: #FFFFFF;
+	border-right: 1px solid #121417;
+}
+
+.topnav a:hover,
+.topnav a.active{
+	color: #287CE0;
+
+	background: #FFFFFF;
+	border-right: 5px solid #01FF75;
+}
+/*end of top navigation bar*/
+
+/*side bar*/
+.wrapper .sidebar{
+	background: #287CE0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 200px;
+	height: 100%;
+	padding: 20px 0;
+	transition: all 0.5 ease;
+}
+
+.wrapper .sidebar ul li a{
+	display: block;
+	padding: 25px 40px;				/* padding: in between letters , from left */
+	border-bottom: 1px solid #121417;
+	color: #FFFFFF;
+	font-size: 15px;
+	position: relative;
+}
+
+.wrapper .sidebar ul li a:hover,
+.wrapper .sidebar ul li a.active{
+	color: #287CE0;
+
+	background: #FFFFFF;
+	border-right: 5px solid #01FF75;
+}
+/*end of side bar*/
+
+
+/*Top 3 tables*/
+
+/*for making tables in one line*/
+.table-container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; /* Divide the container into three equal columns */
+}
+
+/*or
+.table-container{
+	display: flex;
+}*/
+
+/*entire table borders*/
+table{
+	border-collapse: collapse;
+	/*flex: 1;									 function for table inline*/
+}
+/*end of entire table borders*/
+/*for making tables in one line*/
+
+/*table1 */
+.tab1, tr, td{
+	margin-left: 210px;
+	width: 300px;
+	border: 1px solid #000000;
+}
+/*end of table1*/
+
+/*table2 */
+.tab2, tr, td{
+	margin-left: 110px;
+	width: 300px;
+	border: 1px solid #000000;
+}
+/*end of table2*/
+
+
+/*table3 */
+.tab3, tr, td{
+	margin-left: 110px;
+	margin-right: 10px;
+	width: 300px;
+	border: 1px solid #000000;
+}
+/*end of table3*/
+/*end of top 3 tables*/
+
+/* ---------------------------------------------- */
+
+/* 2nd three tables */
+.table-container2{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	/* gap: 100px; */
+}
+
+.t1, tr, th{
+	margin-left: 215px;
+	width: 290px;
+}
+.t2, tr, th{
+	margin-left: 120px;
+	width: 290px;
+}
+.t3, tr, th{
+	margin-left: 115px;
+	margin-right: 10px;
+	width: 290px;
+}
+/* end of 2nd three tables */
+
+.com_heads{
+	margin-left: 210px;
+	font-size: 18px;
+}
+
+/* billing table */
+.table-container3{
+	/* width: 100%; */
+	margin-left: 210px;
+	margin-right: 25px;
+	padding-top: 7px;
+}
+/* end of billing table */
+
+/* collection table */
+.table-container4{
+	margin-left: 210px;
+	margin-right: 25px;
+	padding-top: 7px;
+}
+/* end of collection table */
+
+/* aging table */
+.table-container5{
+	margin-left: 210px;
+	margin-right: 210px;
+	padding-top: 7px;
+}
+/* end of aging table */

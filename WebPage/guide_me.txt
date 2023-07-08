@@ -1,0 +1,52 @@
+information
+
+techniques for bringing tables in one line:
+
+Using CSS Flexbox:
+HTML:
+
+<div class="table-container">
+  <table>
+    <!-- Table 1 content -->
+  </table>
+  <table>
+    <!-- Table 2 content -->
+  </table>
+  <table>
+    <!-- Table 3 content -->
+  </table>
+</div>
+
+CSS:
+
+.table-container {
+  display: flex;
+}
+
+table {
+  flex: 1;
+}
+
+---------------------------------------------------------------------------------------------
+
+Using CSS Grid:
+HTML:
+
+<div class="table-container">
+  <table>
+    <!-- Table 1 content -->
+  </table>
+  <table>
+    <!-- Table 2 content -->
+  </table>
+  <table>
+    <!-- Table 3 content -->
+  </table>
+</div>
+CSS:
+
+.table-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Divide the container into three equal columns */
+  gap: 10px; /* Optional gap between tables */
+}
