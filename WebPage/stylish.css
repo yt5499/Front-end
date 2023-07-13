@@ -89,6 +89,11 @@ table{
 	/*flex: 1;									 function for table inline*/
 }
 /*end of entire table borders*/
+
+/* tr:nth-child(1){
+		background-color: #287CE0;
+} */
+
 /*for making tables in one line*/
 
 /*table1 */
@@ -121,6 +126,40 @@ table{
 /* ---------------------------------------------- */
 
 /* 2nd three tables */
+/* coloring 1st row */
+.t1 tr:nth-child(1){
+	background-color: #287CE0;
+}
+.t2 tr:nth-child(1){
+	background-color: #287CE0;
+}
+.t3 tr:nth-child(1){
+	background-color: #287CE0;
+}
+/* colored 1st row */
+/* coloring 2nd row */
+.t1 tr:nth-child(2){
+	background-color: aqua;
+}
+.t2 tr:nth-child(2){
+	background-color: aqua;
+}
+.t3 tr:nth-child(2){
+	background-color: aqua;
+}
+/* colored 2nd row */
+/* coloring 3rd row */
+.t1 tr:nth-child(3){
+	background-color: rgb(84, 168, 207);
+}
+.t2 tr:nth-child(3){
+	background-color: rgb(84, 168, 207);
+}
+.t3 tr:nth-child(3){
+	background-color: rgb(84, 168, 207);
+}
+/* colored 3rd row */
+
 .table-container2{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -148,6 +187,11 @@ table{
 }
 
 /* billing table */
+/* coloring 1st row */
+.bill tr:nth-child(1){
+	background-color: palevioletred;
+}
+/* colored 1st row */
 .table-container3{
 	/* width: 100%; */
 	margin-left: 210px;
@@ -157,6 +201,21 @@ table{
 /* end of billing table */
 
 /* collection table */
+/* coloring 1st row */
+.coll tr:nth-child(1){
+	background-color: darkgray;
+}
+/* colored 1st row */
+/* coloring 1st column */
+.coll td:nth-child(1){
+	background-color: goldenrod;
+}
+/* colored 1st column */
+/* coloring 1st cell from 1st column */
+#gray {
+	background-color: seagreen;
+}
+/* colored 1st cell from 1st column */
 .table-container4{
 	margin-left: 210px;
 	margin-right: 25px;
@@ -165,6 +224,11 @@ table{
 /* end of collection table */
 
 /* aging table */
+/* coloring 1st row */
+.ag tr:nth-child(1){
+	background-color: blueviolet;
+}
+/* colored 1st row */
 .table-container5{
 	margin-left: 210px;
 	margin-right: 210px;
