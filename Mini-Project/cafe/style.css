@@ -1,0 +1,90 @@
+body{
+    background-color: lightgoldenrodyellow;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.menu{
+    width: 80%;
+    background-color: darkkhaki;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border: 2px solid red;
+}
+
+h2{
+    font-size: 40px;
+}
+.estd{
+    font-style: italic;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h2,h3{
+    font-family: Impact, serif;
+}
+
+h2,h3,p{
+    text-align: center;
+}
+
+hr{
+    height: 2px;
+    background: brown;
+    border-color: brown;
+}
+.bottom-line{
+    margin-top: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+}
+
+.items p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.dish{
+    text-align: left;
+    width: 75%;
+}
+.price{
+    text-align: right;
+    width: 25%;
+}
+
+footer{
+    font-size: 20px;
+}
+
+.copyright{
+    margin-bottom: 5px;
+}
+
+a{
+    color: black;
+}
+
+a:visited{
+    color: darkred;
+}
+
+a:hover{
+    font-size: 30px;
+}
+
+a:active{
+    color: greenyellow;
+}

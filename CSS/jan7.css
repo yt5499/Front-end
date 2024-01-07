@@ -1,0 +1,58 @@
+:root{
+    --color: lightpink;
+    --color2: blue;
+}
+
+html,body{
+    background: var(--color);
+}
+:hover{
+    background: var(--color2);
+}
+
+div.contain{
+    background: lightcoral;
+    text-align: center;
+    height: 280px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 25px;
+    border: 2px solid darkblue;
+}
+div.contain:hover{
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+div.contain:hover::before{
+    color: darkred;
+    content: "Don't Hover";
+}
+div.contain:hover::after{
+    color: darkred;
+    content: "Here";
+}
+
+div.contain2{
+    background: darkkhaki;
+    text-align: center;
+    height: 280px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 1px;
+    border-radius: 25px;
+    border: 2px solid darkred;
+}
+div.contain2:hover{
+    font-size: 30px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+div.contain2:hover::before{
+    color: red;
+    content: "Don't Hover";
+}
+div.contain2:hover::after{
+    color: red;
+    content: "Here";
+}
